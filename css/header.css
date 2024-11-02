@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.navbar {
+  width: 80%;
+}
+
+.navbar > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link,
+.dropdown-item {
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #000000 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-right: 2px solid #000;
+}
+
+.nav-item:last-of-type {
+  border-right: none;
+}
+
+.dropdown-menu {
+  border-radius: 1rem;
+  background-color: #000000;
+  border: 2px solid white;
+  gap: 1rem;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+
+  transition: all 0.5s ease-in-out;
+
+  border-style: solid;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: transparent !important;
+  text-decoration: underline;
+}
+
+header .logo {
+  width: 170px;
+  height: 135px;
+}
+header .logoLoja {
+  width: 50px;
+}
+
+.cabecalho_dicas {
+  background-color: #000000 !important;
+}
+
+.cabecalho_dicas .nav-link {
+  color: white !important;
+}

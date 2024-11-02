@@ -1,0 +1,299 @@
+[
+  {
+    "categoria": "Bebidas Alcoolicas",
+    "tipo": "Fermentadas",
+    "produtos": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descrição": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45.0
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descrição": "Cerveja lupulada com aroma cítrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5
+      },
+      {
+        "nome": "Cidra Artesanal",
+        "descrição": "Cidra refrescante com sabor de maçãs frescas e levemente ácido.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 8.0
+      },
+      {
+        "nome": "Vinho Branco Chardonnay",
+        "descrição": "Vinho fresco com aromas de frutas tropicais e toques de baunilha.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Branco Chardonnay.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Cachaça Artesanal",
+        "descrição": "Cachaça pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioqueño.svg",
+        "valor": 12.0
+      },
+      {
+        "nome": "Vinho Rosé Provence",
+        "descrição": "Vinho rosé leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18.0
+      },
+      {
+        "nome": "Sakê Premium Junmai",
+        "descrição": "Sake japonês puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Vinho Porto Tawny",
+        "descrição": "Vinho do Porto encorpado e adocicado, com notas de frutas secas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Porto Tawny.svg",
+        "valor": 40.0
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descrição": "Cerveja de trigo alemã, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6.0
+      },
+      {
+        "nome": "Cidra de Pêra",
+        "descrição": "Cidra suave e frutada com sabor de pêras frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10.0
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descrição": "Bebida refrescante à base de vinho tinto, frutas cítricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12.0
+      }
+    ]
+  },
+  {
+    "categoria": "Bebidas Alcoolicas",
+    "tipo": "Destiladas",
+    "produtos": [
+      {
+        "nome": "Licor de Mel",
+        "descrição": "Licor doce e aromático com sabor de mel puro.",
+        "categoria": 5,
+        "img": "../../img/alchool/destiladas/Licor de Mel.svg",
+        "valor": 18.0
+      },
+      {
+        "nome": "Licor de Café",
+        "descrição": "Licor cremoso com sabor intenso de café e toques de baunilha.",
+        "categoria": 5,
+        "img": "../../img/alchool/destiladas/Licor Coffee.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Gin Sloe",
+        "descrição": "Gin inglês infusionado com ameixas sloe, suave e frutado.",
+        "categoria": 21,
+        "img": "../../img/alchool/destiladas/Sloe Gin.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Licor de Cereja",
+        "descrição": "Licor adocicado com sabor de cerejas maduras.",
+        "categoria": 5,
+        "img": "../../img/alchool/destiladas/Licor Cherry.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Tequila Blanco",
+        "descrição": "Tequila branca pura, com sabor suave e aroma agave fresco.",
+        "categoria": 13,
+        "img": "../../img/alchool/destiladas/Tequila Blanco.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Vermute Seco",
+        "descrição": "Vermute aromatizado com ervas e especiarias, seco e refrescante.",
+        "categoria": 14,
+        "img": "../../img/alchool/destiladas/Vermute Extra Dry Martini.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Licor de Amêndoa",
+        "descrição": "Licor doce com sabor intenso de amêndoas e notas de baunilha.",
+        "categoria": 5,
+        "img": "../../img/alchool/destiladas/Licor Amendoas.svg",
+        "valor": 22.0
+      },
+      {
+        "nome": "Grappa Italiana",
+        "descrição": "Grappa destilada com bagaço de uva, com sabor intenso e aroma frutado.",
+        "categoria": 16,
+        "img": "../../img/alchool/destiladas/Grappa Italy.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Absinto Tradicional",
+        "descrição": "Absinto clássico com teor alcoólico elevado e notas herbáceas.",
+        "categoria": 17,
+        "img": "../../img/alchool/destiladas/Absinto Tradicional.svg",
+        "valor": 50.0
+      },
+      {
+        "nome": "Gin London Dry",
+        "descrição": "Gin clássico com zimbro e notas cítricas.",
+        "categoria": 21,
+        "img": "../../img/alchool/destiladas/London Dry Gin.svg",
+        "valor": 35.0
+      },
+      {
+        "nome": "Vodka Premium",
+        "descrição": "Vodka pura com suavidade e leveza.",
+        "categoria": 18,
+        "img": "../../img/alchool/destiladas/Vodka Premium.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Whisky Escocês Single Malt",
+        "descrição": "Whisky envelhecido em barris de carvalho, com notas de fumaça e frutas secas.",
+        "categoria": 11,
+        "img": "../../img/alchool/destiladas/Whisky Escocês Single Malt.svg",
+        "valor": 60.0
+      }
+    ]
+  },
+  {
+    "categoria": "Bebidas Não Alcoolicas",
+    "produtos": [
+      {
+        "nome": "Refrigerante Cola",
+        "descrição": "Refrigerante gaseificado com sabor de cola.",
+        "categoria": 22,
+        "img": "../../img/non-alchool/Refrigerante Cola.svg",
+        "valor": 3.0
+      },
+      {
+        "nome": "Suco Natural de Laranja",
+        "descrição": "Suco de laranja fresco e natural, sem adição de açúcar.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Suco Natural de Laranja.svg",
+        "valor": 5.0
+      },
+      {
+        "nome": "Água Mineral Sem Gás",
+        "descrição": "Água mineral purificada e sem gás.",
+        "categoria": 27,
+        "img": "../../img/non-alchool/Água Mineral Sem Gás.svg",
+        "valor": 2.5
+      },
+      {
+        "nome": "Suco de Uva Integral",
+        "descrição": "Suco de uva natural e integral, sem adição de açúcar ou conservantes.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Suco de Uva Integral.svg",
+        "valor": 6.0
+      },
+      {
+        "nome": "Chá Verde Orgânico",
+        "descrição": "Chá verde orgânico e antioxidante, refrescante e revigorante.",
+        "categoria": 24,
+        "img": "../../img/non-alchool/Chá Verde Orgânico.svg",
+        "valor": 4.0
+      },
+      {
+        "nome": "Água de Coco Natural",
+        "descrição": "Água de coco pura e natural, rica em eletrólitos e nutrientes.",
+        "categoria": 27,
+        "img": "../../img/non-alchool/Água de Coco Natural.svg",
+        "valor": 4.5
+      },
+      {
+        "nome": "Limonada Caseira",
+        "descrição": "Limonada fresca feita com limões orgânicos e açúcar natural.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Limonada Caseira.svg",
+        "valor": 3.5
+      },
+      {
+        "nome": "Suco Detox",
+        "descrição": "Suco detox feito com ingredientes orgânicos, para desintoxicar e revitalizar o organismo.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Suco Detox.svg",
+        "valor": 6.0
+      },
+      {
+        "nome": "Iced Tea de Pêssego",
+        "descrição": "Chá gelado de pêssego naturalmente adocicado e refrescante.",
+        "categoria": 24,
+        "img": "../../img/non-alchool/Iced Tea de Pêssego.svg",
+        "valor": 4.5
+      },
+      {
+        "nome": "Smoothie de Açaí",
+        "descrição": "Smoothie energizante com polpa de açaí, banana e granola.",
+        "categoria": 25,
+        "img": "../../img/non-alchool/Smoothie de Açaí.svg",
+        "valor": 7.0
+      },
+      {
+        "nome": "Mate Gelado",
+        "descrição": "Mate gelado naturalmente adocicado e revitalizante.",
+        "categoria": 24,
+        "img": "../../img/non-alchool/Mate Gelado.svg",
+        "valor": 3.5
+      },
+      {
+        "nome": "Suco de Abacaxi com Hortelã",
+        "descrição": "Suco de abacaxi fresco com toque de hortelã, refrescante e delicioso.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Suco de Abacaxi com Hortelã.svg",
+        "valor": 5.5
+      },
+      {
+        "nome": "Água de Limão",
+        "descrição": "Água de limão naturalmente aromatizada, com toque cítrico e refrescante.",
+        "categoria": 27,
+        "img": "../../img/non-alchool/Água de Limão.svg",
+        "valor": 3.0
+      },
+      {
+        "nome": "Chá de Hibisco",
+        "descrição": "Chá de hibisco naturalmente adocicado, com propriedades antioxidantes.",
+        "categoria": 24,
+        "img": "../../img/non-alchool/Chá de Hibisco.svg",
+        "valor": 4.0
+      },
+      {
+        "nome": "Smoothie de Morango com Banana",
+        "descrição": "Smoothie cremoso e nutritivo com morangos frescos e banana madura.",
+        "categoria": 25,
+        "img": "../../img/non-alchool/Smoothie de Morango com Banana.svg",
+        "valor": 6.5
+      },
+      {
+        "nome": "Refresco de Maracujá",
+        "descrição": "Refresco natural de maracujá, com sabor tropical e aroma envolvente.",
+        "categoria": 23,
+        "img": "../../img/non-alchool/Refresco de Maracujá.svg",
+        "valor": 4.5
+      },
+      {
+        "nome": "Iced Coffee",
+        "descrição": "Café gelado aromatizado com baunilha e levemente adoçado.",
+        "categoria": 24,
+        "img": "../../img/non-alchool/Iced Coffee.svg",
+        "valor": 4.5
+      }
+    ]
+  }
+]

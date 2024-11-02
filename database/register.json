@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nome": "Luiz",
+    "email": "teste@teste.com.br",
+    "phone": "(11) 96593-2620",
+    "endereco": {
+      "cep": "09710212",
+      "rua": "Rua Municipal",
+      "numero": "507",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "São Bernardo do Campo",
+      "estado": "SP"
+    },
+    "senha": "123456",
+    "admin": false
+  },
+  {
+    "id": 2,
+    "nome": "Admin Sergio",
+    "email": "admin@teste.com.br",
+    "phone": "(11) 96593-2620",
+    "endereco": {
+      "cep": "09710212",
+      "rua": "Rua Municipal",
+      "numero": "507",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "São Bernardo do Campo",
+      "estado": "SP"
+    },
+    "senha": "123456",
+    "admin": true
+  }
+]

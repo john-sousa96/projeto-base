@@ -1,0 +1,276 @@
+.bodyShop {
+  position: relative;
+}
+
+.finishShop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.finishShop > h2 {
+  width: max-content;
+  color: #000;
+}
+
+.cartValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #000000;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.red {
+  color: #000000;
+}
+
+.shop {
+  display: flex;
+  min-height: calc(100vh - 56px);
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 30%;
+  min-height: 100%;
+  padding: 0.5rem;
+}
+aside > div {
+  width: 100%;
+  border-bottom: 2px solid #000000;
+}
+
+aside h2:hover {
+  font-weight: 800;
+}
+
+aside img {
+  transition: all 0.3s ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+.shop section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-height: calc(100vh - 56px);
+  overflow-y: scroll;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  width: 260px;
+  height: 280px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.product > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.product h2,
+.product h3,
+.product span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 !important;
+  color: #000000 !important;
+}
+
+.product button,
+aside button {
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.5rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.product button:hover,
+aside button:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.modalShop {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: rgba(192, 190, 190, 0.432);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.modalContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  min-height: 100%;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.closedButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.modalShop table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modalShop table::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modalShop table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.modalShop table::-webkit-scrollbar-thumb {
+  background: #000000;
+
+  border-radius: 10px;
+}
+
+.modalShop table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#cart .imgProduct {
+  height: 100px;
+}
+
+.modalShop thead,
+.modalShop tbody {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.modalShop tbody {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modalShop tr {
+  border-bottom: 1px solid #000;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.modalShop tr,
+.modalShop th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+#cartModal td {
+  color: #000;
+}
+
+#cartModal .tableQtt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tableQtt h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  border: 1px solid #000;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+
+  user-select: none;
+}
+
+.tableImg {
+  min-width: 14%;
+}
+
+.tableTrash,
+.tdRemove {
+  min-width: 5%;
+}
+
+.tableName,
+.tableQtt,
+.tablePrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #000;
+  min-width: 27%;
+}
+
+.tdRemove {
+  cursor: pointer;
+}
+
+.tdRemove img {
+  height: 100% !important;
+}
+
+.buy {
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}

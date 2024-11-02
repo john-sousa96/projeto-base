@@ -1,0 +1,122 @@
+.bodyCart {
+  display: flex;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+}
+
+.cart section {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 94%;
+}
+
+.cart table {
+  background-color: white;
+  padding: 1rem;
+
+  border-radius: 2rem;
+}
+
+.cart table,
+.cart > section > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-height: 100%;
+}
+
+.tableCart tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart thead {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cart tr {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.cart td,
+.cart th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cart .tableImg {
+  min-width: 10% !important;
+}
+
+.cart .tableName,
+.cart .tableQtt,
+.cart .tablePrice {
+  min-width: 22.5% !important;
+}
+
+.cart #cart {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.cart #cart::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cart #cart::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.cart #cart::-webkit-scrollbar-thumb {
+  background: #000000;
+
+  border-radius: 10px;
+}
+
+.cart #cart::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.prosseguir,
+.finalizar {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-weight: 800;
+
+  background-color: #fff !important;
+  color: #000;
+
+  border: 2px solid #fff;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.prosseguir:hover,
+.finalizar:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.validade input {
+  width: 5rem;
+}
+
+.cart input {
+  border-radius: 1rem;
+  text-align: center;
+  color: black;
+}
